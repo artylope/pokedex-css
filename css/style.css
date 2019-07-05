@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background: url('../images/poke-background2.png');
+  padding: 0;
+  margin: 0 auto;
+}
+
+.container-wrapper{
+  background: url('../images/poke-background.png');
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.container{
+  background: white;
+  padding: 50px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.pokedex{
+  color: #616161;
+}
+.column{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.pokemon-image{
+  background: #f2f2f2;
+  padding: 20px 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 400px;
+  height: auto;
+}
+
+.description{
+  margin-bottom: 40px;
+}
+
+.stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  background: #38a8d5;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.stat-item{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-bottom: 20px;
+
+}
+
+.stats-header{
+  color: white;
+}
+
+h2{
+  margin-top: 20px;
+  font-size: 24px;
+}
+.categories{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.tag{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 33.333333%;
+  border-radius: 5px;
+  background: grey;
+  margin-right: 10px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  bo
+
+
+}
+
+.type-grass{
+  background: #9cca58;
+}
+
+.type-poison{
+  background: #b881c7;
+}
+
+.type-fire{
+  background: #fb7d33;
+}
+
+.type-flying-half{
+  background: #57c4e5;
+}
+
+.type-ice{
+  background: #57c4e5;
+}
+
+.type-psychic{
+  background: #f169b8;
+}
+
+.evolutions{
+  background: url('../images/poke-background2.png');
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.evolutions img{
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0px 5px #333;
+  padding: 5px;
+  border: 8px solid white;
+}
+
+.chevron-right{
+  font-size: 120px;
+  color: white;
+  margin-right: 30px;
+  margin-left: 30px;
+}
